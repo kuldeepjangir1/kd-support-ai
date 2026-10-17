@@ -1,0 +1,49 @@
+print("welcome to KD support AI ")
+name = input("what is your name ")
+print("hello",name,"!")
+print("1. SEO ")
+print("2. website development")
+print("3. social media marketing")
+print("4. paid ads")
+
+service = input("enter your service name ")
+service = service.lower()
+
+if service == "seo":
+  print("seo help your website to rank high on search engine ")
+elif service == "website development":
+  print("we build professional and responsive website")
+elif service == "social media marketing":
+  print("we help our customers to grow their businesses on social media")
+elif service == "paid ads":
+  print("we create attractive and responsive campaigns to reach the potential customer")
+else:
+  print("sorry, I don't have information about that service yet")
+
+  print("\nThanks for connecting KD support AI")
+
+  print("\nCustomer FAQ")
+while True:
+    question = input("ask your question(type exit for stop)").lower()
+    if  question == "exit":
+        print("thanks for chatting us")
+        break
+
+    if "seo" in question:
+        print(name,"seo helps website ranks higher")
+    elif "paid ads" in question:
+        print(name,"paid ads help customers to reach their potential clients")
+    elif "digital marketing" in question:
+        print(name,"digital marketing is the way to promote businesses online") 
+    elif "website development" in question:
+        print(name,"Website development is the process of creating designing promote    businesses or provide online services")
+    else: 
+        print(name,"Im still learning Please ask about SEO Paid Ads Digital Marketing, or Website Development")
+
+
+
+
+
+
+
+  
